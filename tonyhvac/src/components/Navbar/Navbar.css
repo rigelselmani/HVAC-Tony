@@ -1,0 +1,13 @@
+.navbar{
+    margin-top:40px;
+}
+.nav-item{
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+.material-symbols-outlined{
+    font-size: 45px;
+    color:rgb(65, 111, 197);
+    
+}
