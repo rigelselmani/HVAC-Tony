@@ -1,8 +1,7 @@
 footer{
     background-color: black;
     padding:17px;
-    border-top: 5px solid rgb(73, 182, 73);
- 
+    border-top: 5px solid rgb(65, 111, 197);
 }
 @media only screen and (max-width: 490px){
     footer{
