@@ -1,0 +1,39 @@
+.content{
+    background-image: 
+    url("https://www.plm.automation.siemens.com/media/global/en/Modular_hvac_design_u_tcm27-88180.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: center;
+  }
+.main{
+    margin-top:60px;
+    padding:30px;
+    background-color: rgb(11, 30, 46);
+    border-radius:10px;
+    border:1px white dashed;
+}
+.main-h1{
+    margin-bottom:40px;
+}
+.main-phone{
+    padding:40px 10px 10px 10px;
+    background-color: rgb(238, 195, 75);
+    align-items: center;
+    width:40%;
+    text-align: center;
+    border-radius: 20px;
+    margin:auto;
+}
+.main-phone:hover{
+    background-color: rgb(243, 182, 16);
+    color:white;
+}
+.wraper{
+    background-color: rgb(11, 30, 46);
+}
