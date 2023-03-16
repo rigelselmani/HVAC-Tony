@@ -24,9 +24,6 @@ export default function Navbar(){
                     <a className="nav-link text-dark fs-5" href="/blog">Blog</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-dark fs-5" href="/blog">Blog</a>
-                  </li>
-                  <li className="nav-item">
                     <a className="nav-link phone text-dark fs-5 pt-0" href="tel:7038706927"><span className="material-symbols-outlined pt-0">
 phone_in_talk
 </span></a>

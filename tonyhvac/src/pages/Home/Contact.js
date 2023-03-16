@@ -12,7 +12,7 @@ export default function Contact(){
                     <input  required type="text" id="lname" name="lname" placeholder="Last Name" /><br/>
                     <input  required type="contact" id="number" name="number" placeholder="Phone" /><br/>
                     <input  required type="email" id="email" name="email" placeholder="Email"/><br/>
-                    <input type="message" placeholder="Message"/>
+                    <input type="message" placeholder="Message"/><br/>
                     <button className="Contact-btn">Submit</button>
              </form>
                 
