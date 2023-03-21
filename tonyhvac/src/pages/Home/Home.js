@@ -15,13 +15,12 @@ export default function Home(){
                 <Contact />
             </div>
             <div className="contain-description">
-                 <h1>Northern Virginia’s Preferred HVAC</h1>
-                 <h2 className="contain-h2">Residential & Commercial HVAC & Plumbing Contractors in Northern Virginia</h2>
-                 <p className="content-p">Need HVAC and plumbing services for your Leesburg, Alexandria, Winchester, or nearby home or business? For over half a century, M.E. Flow has provided HVAC and home comfort services to businesses and homeowners throughout Northern Virginia. You’re always in good hands with our team of NATE-certified technicians and advisors. We solve any heating, air conditioning, or plumbing problem you have and deliver unparalleled customer care and service. Searching for Northern Virginia’s finest HVAC and plumbing services? Contact M.E.</p>
+                 <h1>Masachusets’s Preferred HVAC</h1>
+                 <h2 className="contain-h2">Residential & Commercial HVAC in Masachusets</h2>
+                 <p className="content-p">Need HVAC services for your boston or nearby home or business? For over 10 years Tony has provided HVAC and home comfort services to businesses and homeowners throughout Northern Virginia. You’re always in good hands with our team of NATE-certified technicians and advisors. We solve any heating, air conditioning, or plumbing problem you have and deliver unparalleled customer care and service. Searching for Masachuset’s finest HVAC services? Contact M.E.</p>
                  <h3>Flow today or call one of our main locations: Boston (617) 888-0467</h3>
             </div>
-            <h4 style={{marginBottom:"50px"}}>Testimonials</h4>
-                 <Slider/>
+               <Slider/>
         </div>
     )
 }

@@ -61,6 +61,10 @@
     font-family: 'Roboto', sans-serif;
 }
 .carousel-item{
- 
-    
+    height:300px;
+}
+.testimonials{
+    width:70%;
+    padding:20px;
+    margin-bottom:140px;
 }
