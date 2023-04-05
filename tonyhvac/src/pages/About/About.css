@@ -3,21 +3,21 @@
 }
 .about-content{
     background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/lightgreypolkadots-12-091815-644_thumb.jpg);
-    padding:70px 0;
+    /* padding:70px 0; */
 }
 .tony-img{
-    padding: 0%;
+    padding:0  5% ;
     margin: 0%;
-    width:60%;
-    height:400px;
+    height:450px;
+    width:95%;
     border-radius: 5px;
-    margin-left:40%;
+    margin-left:2%;
 }
 .about-info{
     text-align: start;
+    padding: 2% 9%;
 }
 .about-text{
-    width: 75%;
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Lexend Exa', sans-serif;
@@ -38,4 +38,23 @@
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sono', sans-serif;
+}
+@media only screen and (max-width: 1300px) {
+    .about-text{
+        font-size: 15px;
+    }
+    .about-info{
+        margin:auto;
+    }
+}
+@media only screen and (max-width: 758px) {
+    .about-text{
+        font-size: 15px;
+    }
+    .about-info{
+        margin:auto;
+    }
+    .tony-img{
+        height:380px;
+    }
 }

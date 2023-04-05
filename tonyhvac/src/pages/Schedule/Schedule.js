@@ -24,7 +24,7 @@ export default function Schedule (){
     function handleSubmit(e){
        e.preventDefault()
        send(
-        "service_kj3ziyq",
+        "service_gb3qix7",
         "template_5vl4eys",
         {yesText, searching, service, text , fullName, number, email, address, city, region, postalCode, hour},
         "cg_p1GRyMNmDPq4tH"

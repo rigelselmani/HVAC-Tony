@@ -85,7 +85,7 @@ export default function Blog(){
             </div>
 
             <div className="card col-lg-4 col-md-6 col-sm-12">
-                <img src={require('../../images/photo3.jpg')} className="card-img-top" alt="img" />
+                <img src={require('../../images/photo13.jpg')} className="card-img-top" alt="img" />
                 <div className="card-body">
                   <h5 className="card-title">title</h5>
                   <p className="card-text">

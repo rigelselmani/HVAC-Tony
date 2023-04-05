@@ -71,3 +71,11 @@
 .certification{
     border-radius: 10px;
 }
+@media only screen and (max-width: 1030px) {
+    .content{
+        height:460px;
+    }
+    .contain-description{
+        width: 96%;
+    }
+ }

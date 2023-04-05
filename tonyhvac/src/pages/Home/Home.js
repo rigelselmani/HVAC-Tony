@@ -31,8 +31,8 @@ export default function Home(){
               </div>
             </div>
             <div className="contain-description">
-                 <h1>Qeency’s Preferred HVAC</h1>
-                 <h2 className="contain-h2">Residential HVAC in Qeency</h2>
+                 <h1>Quincy’s Preferred HVAC</h1>
+                 <h2 className="contain-h2">Residential HVAC in Quincy</h2>
                  <p className="content-p">Need HVAC services for your Queency or nearby home? For over 10 years Tony has provided HVAC and home comfort services to homeowners throughout Queency. You’re always in good hands with our team of Tony's-certified technicians and advisors. We solve any heating, air conditioning problem you have and deliver unparalleled customer care and service. Searching for Masachuset’s finest HVAC services? Tony HVAC Services</p>
                  <h3>Stop today or call our location: Quincy (617) 888-0467</h3>
             </div>

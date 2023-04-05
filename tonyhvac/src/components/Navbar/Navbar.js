@@ -5,8 +5,8 @@ export default function Navbar(){
     return (
         <nav className="navbar navbar-expand-lg container bg-white sticky-top border-bottom">
             <div className="container-fluid">
-              <img className="logo" src={require('../../images/logo.jpg')} />
-              <a className="navbar-brand text-primary fs-1 fst-italic mt-1"  href="/"><span className="text-bg-dark mt-5">Tony</span> HVAC</a>
+              <img className="logo" src={require('../../images/logo.png')} alt="logo" />
+              <a className="navbar-brand text-primary fs-1 fst-italic mt-1 logo-nav"  href="/"><span className="text-bg-dark mt-5 ">Tony</span> HVAC Services</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -19,7 +19,7 @@ export default function Navbar(){
                     <a className="nav-link text-dark fs-5" href="/about">About</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-dark fs-5" href="/schedule">Schedule Now</a>
+                    <a className="nav-link text-dark fs-5" href="/schedule">Contact</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link text-dark fs-5" href="/blog">Blog</a>
