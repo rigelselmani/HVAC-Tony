@@ -11,6 +11,9 @@
     color:rgb(65, 111, 197);
     
 }
+.logo-nav{
+    font-weight: bold;
+}
 .logo{
     width:80px;
     height:80px;
@@ -19,6 +22,8 @@
 .navbar-brand{
     margin-left:1px;
 }
-@media only screen and (max-width: 1030px) {
-     
+@media only screen and (max-width: 416px) {
+     .navbar-toggler{
+        margin-left:10px;
+     }
  }

@@ -3,19 +3,20 @@
 }
 .about-content{
     background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/lightgreypolkadots-12-091815-644_thumb.jpg);
-    /* padding:70px 0; */
+    padding:30px 0;
 }
 .tony-img{
-    padding:0  5% ;
+    padding:0 0 0 5% ;
     margin: 0%;
     height:450px;
-    width:95%;
+    width:85%;
     border-radius: 5px;
-    margin-left:2%;
+    margin-left:12%;
 }
 .about-info{
     text-align: start;
-    padding: 2% 9%;
+    padding: 0 10% 0 0;
+
 }
 .about-text{
     font-size: 18px;
@@ -45,6 +46,33 @@
     }
     .about-info{
         margin:auto;
+        padding: 0 10% 0 0;
+    }
+    .tony-img{
+    padding:0 0 0 5% ;
+    margin: 0%;
+    height:450px;
+    width:95%;
+    border-radius: 5px;
+    margin-left:2%;
+    }
+    .brand{
+        width:95%;
+        height:100px;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (max-width: 990px) {
+    .tony-img{
+        margin: 0 2% ;
+        padding:0 3%;
+    }
+    .about-info{
+        padding: 0 7%;
+    }
+    .about-text{
+        font-size: 18px;
     }
 }
 @media only screen and (max-width: 758px) {
@@ -56,5 +84,40 @@
     }
     .tony-img{
         height:380px;
+    }
+    .brand{
+        width:95%;
+        height:100px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 758px) {
+    
+    .brand{
+        width:65%;
+        height:100px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .about-head{
+        padding-top: 27px;
+    }
+}
+@media only screen and (max-width: 598px) {
+    
+    .carousel-item{
+        height:460px;
+    }
+    .card-text{
+    }
+}
+@media only screen and (max-width: 398px) {
+    
+    .carousel-item{
+        height:490px;
+    }
+    .main-phone{
+        width: 56%;
     }
 }

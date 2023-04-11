@@ -6,7 +6,7 @@ export default function About(){
             <div>
                 <div className="about-content text-center ">
                   <div className="row ">
-                    <h3 className="mb-4 mt-2">Tony HVAC Services  Company Background</h3>
+                    <h3 className=" about-head mb-4 mt-2">Company Background</h3>
                     <div className="col-lg-6 col-md-12 mt-4">
                        <img className="tony-img" src={require('../../images/tony1.jpg')} alt="about"/>
                     </div>
@@ -18,15 +18,15 @@ export default function About(){
                                    of licensed and highly-trained heating, and cooling technicians.</p>
                         <p className="about-text">
                         Our team is specialized in installing,Servicing and maintaining on any central air ducted and mini splits systems.Also we qualified to work with latest technologies on heat pomp and hyper heat most efficient systems.Our goal is to provide service on time and high quality work.
-For more information you can call or email us any time
+For more information you can call or email us any timey
                         </p>
                     </div>
-                    <div className=" col-md-2"></div>
+                   
                   </div>
                 </div>
                 <div className="container text-center">
                   <h4>We are proud to work with the best brands in market as</h4>
-                  <div className="row align-items-center py-5">
+                  <div className="row align-items-center py-3">
                       <div className="col-lg-2 col-md-4 col-sm-6 mt-3 col-xs-12">
                         <img className="brand" src={require('../../images/American.jpg')} alt="brand"/>
                       </div>
@@ -57,20 +57,20 @@ For more information you can call or email us any time
                 </div>
 
                 <div className="row bs-secondary-bg mb-5 mx-auto">
-                    <div className="col-sm-4">
+                    <div className="col-lg-3 col-sm-2">
 
                     </div>
-                    <div className="col-sm-5">
+                    <div className="col-lg-6 col-sm-8">
                       <div className="card p-0">
                         <div className="card-body service-area  text-bg-light">
                           <h3 className="card-title">Our Office</h3>
                           <p className="card-text">1025 HANCOCK ST, Quincy, MA 02169</p>
-                          <h4 className="">Stop today or call our location or: (617) 888-0467</h4>
+                          <h4 className="">Call: (617) 888-0467</h4>
                           <a className="nav-link main-phone fs-5 pt-0" href="tel:7038706927">Call Today</a>
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-lg-3 col-sm-2">
 
                     </div>
                 </div>

@@ -22,6 +22,9 @@
 .main-h1{
     margin-bottom:40px;
 }
+.main-text{
+    font-size:27px;
+}
 .main-phone{
     padding:40px 10px 10px 10px;
     background-color: rgb(238, 195, 75);
@@ -70,12 +73,88 @@
 }
 .certification{
     border-radius: 10px;
+    text:white;
 }
+@media only screen and (max-width: 1691px) {
+    .wraper{
+        width:80%;
+    }
+ }
 @media only screen and (max-width: 1030px) {
     .content{
         height:460px;
     }
     .contain-description{
         width: 96%;
+    }
+ }
+ @media only screen and (max-width: 871px) {
+    .main-h1{
+        font-size: 30px;
+    }
+    .main-text{
+        font-size: 18px;
+    }
+    .main{
+        height:260px;
+    }
+    .content{
+        height:350px
+    }
+ }
+ @media only screen and (max-width: 775px) {
+     .main{
+        padding:15px;
+        margin-top:15px;
+     }
+     .content{
+        height:300px
+    }
+    .row{
+        margin-top:-40px;
+    }
+    .certification{
+        margin-top: 5px;
+    }
+ }
+ @media only screen and (max-width: 650px) {
+   .content{
+     background-image: none;
+   }
+   .main{
+      height:330px;
+      border-radius: 1px;
+      border:none;
+      text-align: center;
+      background-color: rgb(44, 51, 56);
+   }
+   .office{
+      margin: 0 80px;
+   }
+   .certification {
+    margin:3px auto;
+    width:80%;
+}
+}
+@media only screen and (max-width: 469px) {
+    .office{
+        margin:0 50px;
+        font-size: 15px;
+    }
+    .content-p{
+        text-align: center;
+        margin:0 auto;
+        width:90%;
+        font-size: 17px;
+        letter-spacing: .9px;
+        line-height: 18px;
+    }
+    .main{
+        height:360px;
+        margin-bottom:20px;
+    }
+    .certification {
+        margin:3px auto;
+        width:90%;
     }
  }

@@ -27,7 +27,7 @@ input :hover{
     padding: 7px 40px;
     color:white;
 }
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1300px) {
     .wrapper{
         display: none;
     }
