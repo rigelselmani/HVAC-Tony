@@ -11,10 +11,10 @@ export default function About(){
                        <img className="tony-img" src={require('../../images/tony1.jpg')} alt="about"/>
                     </div>
                     <div className="col-lg-6 col-md-12 mt-4 about-info">
-                       <p className="about-text">Family-owned business, Tony HVAC. was founded in 2010 by Tony. Tony was looking for an 
+                       <p className="about-text">Family-owned business, GR Comfort. was founded in 2010 by Tony. Tony was looking for an 
                                   opportunity to serve his local community while living in Quincy with his family. The area was in need of a dependable, 
                                   trustworthy, and quality HVAC contractor.</p>
-                        <p className="about-text">Today, Tony HVAC Services. works in Quincy area including a host
+                        <p className="about-text">Today, GR Comfort. works in Quincy area including a host
                                    of licensed and highly-trained heating, and cooling technicians.</p>
                         <p className="about-text">
                         Our team is specialized in installing,Servicing and maintaining on any central air ducted and mini splits systems.Also we qualified to work with latest technologies on heat pomp and hyper heat most efficient systems.Our goal is to provide service on time and high quality work.
