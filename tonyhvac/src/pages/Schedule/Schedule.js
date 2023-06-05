@@ -34,7 +34,7 @@ export default function Schedule (){
         
         return (
           <div className="schedule">
-              <h1 className="schedule-h1">CONTACT TONY HVAC</h1>
+              <h1 className="schedule-h1">CONTACT GR Comfort</h1>
               <a className="schedule-h3" href="tel:6178880467">617-888-0467</a>
               <p className="schedule-p">Professional HVAC, based in Quincy MA.</p>
               <hr></hr>
