@@ -15,7 +15,7 @@ export default function Contact(){
 
     function handleSubmit(e){
        e.preventDefault()
-       console.log( "1:",name, "2:",lastName, "3",number, "3:",email, "4:",email,)
+       console.log( "1:",name, "2:",lastName, "3",number, "3:",email, "4:",message,)
        send(
         "service_qjoznwa",
         "template_5vl4eys",
@@ -36,11 +36,11 @@ export default function Contact(){
     return (
         <div>
              <form onSubmit={handleSubmit} className="wrapper">
-                    <input onChange={(e)=> setName(e.target.value)}  value={name}  required type="text" id="name" name="name" placeholder="Name" /><br/>
-                    <input onChange={(e)=> setLastName(e.target.value)} value={lastName} required type="text" id="lname" name="lname" placeholder="Last Name" /><br/>
-                    <input onChange={(e)=> setNumber(e.target.value)} value={number} required type="contact" id="number" name="number" placeholder="Phone" /><br/>
-                    <input onChange={(e)=> setEmail(e.target.value)} value={email} required type="email" id="email" name="email" placeholder="Email"/><br/>
-                    <input onChange={(e)=> setMessage(e.target.value)} value={message} type="message" placeholder="Message"/><br/>
+                    <input className="home-input" onChange={(e)=> setName(e.target.value)}  value={name}  required type="text" id="name" name="name" placeholder="Name" /><br/>
+                    <input className="home-input"  onChange={(e)=> setLastName(e.target.value)} value={lastName} required type="text" id="lname" name="lname" placeholder="Last Name" /><br/>
+                    <input className="home-input"  onChange={(e)=> setNumber(e.target.value)} value={number} required type="contact" id="number" name="number" placeholder="Phone" /><br/>
+                    <input className="home-input"  onChange={(e)=> setEmail(e.target.value)} value={email} required type="email" id="email" name="email" placeholder="Email"/><br/>
+                    <input className="home-input"  onChange={(e)=> setMessage(e.target.value)} value={message} type="message" placeholder="Message"/><br/>
                     <button className="Contact-btn">Submit</button>
              </form>
                 

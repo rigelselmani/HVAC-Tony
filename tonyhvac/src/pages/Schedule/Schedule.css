@@ -17,16 +17,19 @@
 }
 .wrapper-schedule{
     padding: 5PX 20px;
-    text-align: start;
+    text-align: center;
 }
-label{
-    font-weight: bold;
-    width:30%;
-    padding-right:10px;
-
+.contact-wrapper{
+    display: flex;
+    justify-content: space-evenly;
 }
-input{
-    margin:5px;
+.list-group-item{
+    padding:13px;
+}
+.page-input{
+    padding:10px;
+    width:60%;
+    margin:5px 0;
     border-radius: 5px;
     border: 1px solid rgb(136, 135, 135);
 }
@@ -60,29 +63,36 @@ input :hover{
     }
     
  }
+ @media only screen and (max-width: 1134px) {
+    .page-input{
+        width:80%;
+    }
+ }
  @media only screen and (max-width: 768px){
     .schedule {
      width: 85%;
      }
+    .page-input{
+        width:70%;
+    }
+
 }
 @media only screen and (max-width: 490px){
     .schedule {
-     width: 85%;
-     }
-     label{
-        width:41%;
+     width: 100%;
      }
      .wrapper {
         padding: 5PX 0px;
     }
+   
+    .page-input{
+        width:85%;
+    }
+    .wrapper-schedule{
+        padding:0;
+    }
 }
 @media only screen and (max-width: 420px){
-    .schedule {
-     width: 85%;
-     }
-     label{
-        width:100%;
-     }
      .wrapper {
         padding: 5PX 0px;
     }

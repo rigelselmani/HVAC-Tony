@@ -6,10 +6,7 @@ export default function Navbar(){
         <nav className="navbar navbar-expand-lg container bg-white sticky-top border-bottom">
             <div className="container-fluid">
                <img className="logo" src={require('../../images/logo.png')} alt="logo" />
-               <div>
-                  <a className="navbar-brand text-primary fs-1 fst-italic mt-1 logo-nav"  href="/">TONY HVAC</a>
-                  <p className="text-primary">Services</p>
-               </div>
+               <a className="navbar-brand text-primary fs-1 fst-italic mt-1 logo-nav"  href="/">GR Comfort</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>

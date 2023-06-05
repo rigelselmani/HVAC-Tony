@@ -6,11 +6,11 @@ export default function Home(){
         <div className="contain">
             <div className="content">
                 <div className="main">
-                    <h1 className="main-h1">Tony HVAC serivces</h1>
-                    <h5>Heating & Cooling in  Quincy MA</h5>
+                    <h1 className="main-h1">GR Comfort</h1>
+                    <h5 className="main-h5">Heating & Cooling in  Quincy MA</h5>
                     <p className="main-text">FULL HVAC SYSTEM INSPECTION TUNE-UP TROUBLESHOOTING & INSTALL </p>
                     <p className="main-text" style={{fontSize:"20px"}}>The Best Prices in the area</p>
-                    <a className="nav-link main-phone fs-5 pt-0" href="tel:6178880467">Call</a>
+                    <a className="nav-link main-phone fs-5 pt-0" href="tel:6178880467">Call: 617-888-0467</a>
                 </div>
                 <Contact />
             </div>
