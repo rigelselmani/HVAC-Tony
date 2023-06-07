@@ -107,8 +107,8 @@
  }
  @media only screen and (max-width: 775px) {
      .main{
-        padding:15px;
-        margin-top:15px;
+        padding:5px;
+        margin:15px 0;
      }
      .content{
         height:300px
@@ -118,6 +118,9 @@
     }
     .certification{
         margin-top: 5px;
+    }
+    .main{
+        min-height:
     }
  }
  @media only screen and (max-width: 650px) {
@@ -147,7 +150,7 @@
     width:80%;
 }
 }
-@media only screen and (max-width: 469px) {
+@media only screen and (max-width: 495px) {
     .office{
         margin:0 50px;
         font-size: 15px;
@@ -167,5 +170,8 @@
     .certification {
         margin:3px auto;
         width:90%;
+    }
+    .main-phone{
+        width:250px;
     }
  }
