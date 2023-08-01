@@ -15,12 +15,14 @@
     font-weight: bold;
 }
 .logo{
-    width:80px;
-    height:80px;
-    border-radius: 50%;
+    width:90px;
+    height:50px;
+    margin-bottom:-10px;
 }
 .navbar-brand{
-    margin-left:1px;
+    margin:0 3px;
+    padding:0;
+    font-size: 70px;
 }
 .services-nav{
     margin-top:-15px
@@ -30,3 +32,8 @@
         margin-left:10px;
      }
  }
+ @media only screen and (max-width: 994px) {
+     .logo-text{
+        align-self: start;
+    }
+}

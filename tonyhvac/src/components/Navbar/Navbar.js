@@ -5,8 +5,13 @@ export default function Navbar(){
     return (
         <nav className="navbar navbar-expand-lg container bg-white sticky-top border-bottom">
             <div className="container-fluid">
-               <img className="logo" src={require('../../images/logo.png')} alt="logo" />
-               <a className="navbar-brand text-primary fs-1 fst-italic mt-1 logo-nav"  href="/">GR Comfort</a>
+               <div className="d-flex flex-row">
+                  <a className="navbar-brand text-primary fst-italic logo-nav"  href="/">GR</a>
+                  <div className="logo-box">
+                     <img className="logo" src={require('../../images/hot-cold.jpg')} alt="logo" />
+                     <p className="logo-text float-left text-primary fs-4 fst-italic m-0 ">Comfort</p>
+                  </div>
+               </div>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
